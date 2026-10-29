@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="eu">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Ariketa 04</title>
+    <script src="04.js" defer></script>
+    <link href="04.css" rel="stylesheet" />
+  </head>
+  <body>
+    <h1 id="title">Liburu lista</h1>
+
+    <div id="main">
+
+      <div id="lista">
+        <table>
+        <thead>
+          <th>Título</th>
+          <th>Autor</th>
+          <th>Año</th>
+          <th>Estado leído</th>
+        </thead>
+        <tbody id="table">
+          
+        </tbody>
+        </table>
+      </div>
+
+      <div id="forms">
+        <h2>Gehitu liburua</h2>
+        <div id="errores" class="error">
+          <ul id="lista_errores" class="oculto">
+          </ul>
+        </div>
+
+        <form id="formulario">
+            <label for="titulo">Titulo</label>
+            <input type="text" id="titulo" name="titulo">
+
+            <label for="autor">Autor</label>
+            <input type="text" id="autor" name="autor">
+
+            
+            <label for="year">Año</label>
+            <input type="text" id="year" name="year">
+
+            <div>
+              <label for="status">Leído?</label>
+              <input type="checkbox" id="status" name="status">
+            </div>
+            
+
+            <button id="boton" type="submit">Añadir</button>
+        </form>
+      </div>
+
+
+    </div>
+
+  </body>
+</html>
